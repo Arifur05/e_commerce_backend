@@ -1,11 +1,13 @@
 const express = require('express');
 
-const app= express();
+const app = express();
+const morgan = require('morgan');
 
-app.use((req, res, next)=>{
-    res.status(200).json({
-        message: 'It worked!'
-    });
-});
+const categoriesRoute = require('./api/routes/categories');
+const productRoute = require('./api/routes/products');
 
-module.exports= app;
+app.use(morgan('dev'));
+app.use('/categories', categoriesRoute);
+app.use('/products', productRoute);
+
+module.exports = app;
