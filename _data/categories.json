@@ -1,0 +1,43 @@
+[{
+  "_id": {
+    "$oid": "60fda197c9f0f84dcd9d14ad"
+  },
+  "name": "Computers",
+  "category_id": 2
+},{
+  "_id": {
+    "$oid": "60fda197c9f0f84dcd9d14ae"
+  },
+  "name": "Fashion",
+  "category_id": 3
+},{
+  "_id": {
+    "$oid": "60fda197c9f0f84dcd9d14b1"
+  },
+  "name": "Sports & Outdoors",
+  "category_id": 6
+},{
+  "_id": {
+    "$oid": "60fda197c9f0f84dcd9d14ac"
+  },
+  "name": "Electronics",
+  "category_id": 1
+},{
+  "_id": {
+    "$oid": "60fda197c9f0f84dcd9d14b2"
+  },
+  "name": "Health & Household",
+  "category_id": 7
+},{
+  "_id": {
+    "$oid": "60fda197c9f0f84dcd9d14af"
+  },
+  "name": "Toys & Games",
+  "category_id": 4
+},{
+  "_id": {
+    "$oid": "60fda197c9f0f84dcd9d14b0"
+  },
+  "name": "Beauty & Personal Care",
+  "category_id": 5
+}]

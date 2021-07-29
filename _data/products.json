@@ -1,0 +1,165 @@
+[{
+  "_id": {
+    "$oid": "60fdac3558487793d9fe6988"
+  },
+  "name": "Lenovo Flex 5 14\" 2-in-1 Laptop, 14.0\" FHD (1920 x 1080) Touch Display, AMD Ryzen 5 4500U Processor, 16GB DDR4, 256GB SSD, AMD Radeon Graphics, Digital Pen Included, Win 10, 81X20005US, Graphite Grey ",
+  "c_id": "2",
+  "brand_name": "Lenovo",
+  "image": "https://m.media-amazon.com/images/I/81AbJXWCxXL._AC_SL1500_.jpg",
+  "price": "$595.38 ",
+  "discounted_price": "$0.00"
+},{
+  "_id": {
+    "$oid": "60fdac3558487793d9fe6989"
+  },
+  "name": "Acer Aspire 5 A515-46-R14K Slim Laptop | 15.6\" Full HD IPS | AMD Ryzen 3 3350U Quad-Core Mobile Processor | 4GB DDR4 | 128GB NVMe SSD | WiFi 6 | Backlit KB | Amazon Alexa | Windows 10 Home (S mode)",
+  "c_id": "2",
+  "brand_name": "Acer",
+  "image": "https://m.media-amazon.com/images/I/71AmKW4yuMS._AC_SL1500_.jpg",
+  "price": "$367.38",
+  "discounted_price": "$0.00"
+},{
+  "_id": {
+    "$oid": "60fdac3558487793d9fe698a"
+  },
+  "name": "LG Gram 16Z90P - 16\" WQXGA (2560x1600) Ultra-Lightweight Laptop, Intel evo with 11th gen CORE i7 1165G7 CPU , 16GB RAM, 1TB SSD, Alexa Built-in, 22 Hours Battery, Thunderbolt 4, Silver - 2021",
+  "c_id": "2",
+  "brand_name": "LG",
+  "image": "https://m.media-amazon.com/images/I/81y9aJKvvlS._AC_SL1500_.jpg",
+  "price": "$1,596.99",
+  "discounted_price": "$0.00"
+},{
+  "_id": {
+    "$oid": "60fdac3558487793d9fe698c"
+  },
+  "name": "Apple M1 Chip with 8-Core CPU and 8-Core GPU 512GB Storage ",
+  "c_id": "2",
+  "brand_name": "Apple",
+  "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp-spacegray-select-202011?wid=904&hei=840&fmt=jpeg&qlt=80&.v=1613672894000",
+  "price": "$1,499.00",
+  "discounted_price": "$0.00"
+},{
+  "_id": {
+    "$oid": "60fdac3558487793d9fe6986"
+  },
+  "name": "SAMSUNG: EVO Select 128GB MicroSDXC UHS-I U3 100MB/s Full HD & 4K UHD Memory Card with Adapter (MB-ME128HA)",
+  "c_id": "2",
+  "brand_name": "SAMSUNG",
+  "image": "https://m.media-amazon.com/images/I/81axmUuRHrL._AC_SL1500_.jpg",
+  "price": "$24.66",
+  "discounted_price": "$0.00"
+},{
+  "_id": {
+    "$oid": "60fdac3558487793d9fe6984"
+  },
+  "name": "Roku Streaming Stick+ | HD/4K/HDR Streaming Device with Long-range Wireless and Voice Remote with TV Controls ",
+  "c_id": "2",
+  "brand_name": "Roku",
+  "image": "https://m.media-amazon.com/images/I/81lsA5v8EIL._AC_SL1500_.jpg",
+  "price": "$39.00",
+  "discounted_price": "$0.00"
+},{
+  "_id": {
+    "$oid": "60fdac3558487793d9fe6985"
+  },
+  "name": "Logitech MK270 Wireless Keyboard and Mouse Combo - Keyboard and Mouse Included, Long Battery Life",
+  "c_id": "2",
+  "brand_name": "Logitech",
+  "image": "https://m.media-amazon.com/images/I/61v+taI5jvL._AC_SL1500_.jpg",
+  "price": "$24.99",
+  "discounted_price": "$0.00"
+},{
+  "_id": {
+    "$oid": "60fdac3558487793d9fe698d"
+  },
+  "name": "ASUS TUF Dash 15 (2021) Ultra Slim Gaming Laptop, 15.6” 144Hz FHD, GeForce RTX 3050 Ti, Intel Core i7-11370H, 8GB DDR4, 512GB PCIe NVMe SSD, Wi-Fi 6, Windows 10, Eclipse Grey Color, TUF516PE-AB73 ",
+  "c_id": "2",
+  "brand_name": "ASUS",
+  "image": "https://m.media-amazon.com/images/I/81f-JgUXsoS._AC_SL1500_.jpg",
+  "price": "$949.99",
+  "discounted_price": "$0.00"
+},{
+  "_id": {
+    "$oid": "60fdac3558487793d9fe698b"
+  },
+  "name": "LG Gram 14Z90P - 14\" WUXGA (1920x1200) Ultra-Lightweight Laptop, Intel evo with 11th gen Core i5 1135G7 CPU , 8GB RAM, 256GB SSD, Alexa Built-in, 25.5 Hours Battery, Thunderbolt 4, White - 2021 ",
+  "c_id": "2",
+  "brand_name": "LG",
+  "image": "https://m.media-amazon.com/images/I/91T5e50WCJS._AC_SL1500_.jpg",
+  "price": "$1,199.99",
+  "discounted_price": "$0.00"
+},{
+  "_id": {
+    "$oid": "60fdac3558487793d9fe698e"
+  },
+  "name": "TP-Link AC1750 Smart WiFi Router (Archer A7) -Dual Band Gigabit Wireless Internet Router for Home, Works with Alexa, VPN Server, Parental Control, QoS ",
+  "c_id": "2",
+  "brand_name": "TP-Link",
+  "image": "https://m.media-amazon.com/images/I/51R2a9p-vNL._AC_SL1000_.jpg",
+  "price": "$57.99",
+  "discounted_price": "$0.00"
+},{
+  "_id": {
+    "$oid": "60fdac3558487793d9fe6987"
+  },
+  "name": "SAMSUNG Galaxy Chromebook Go Laptop Computer Lightweight Slim Durable Design 12-Hour Battery Wi-Fi 6 Share Files with Phone, Black",
+  "c_id": "2",
+  "brand_name": "SAMSUNG",
+  "image": "https://m.media-amazon.com/images/I/815zitaLEvS._AC_SL1500_.jpg",
+  "price": "$299.99",
+  "discounted_price": "$0.00"
+},{
+  "_id": {
+    "$oid": "60fdaf9b834f3736ee77339b"
+  },
+  "name": "Beats Solo3 Wireless On-Ear Headphones - Apple W1 Headphone Chip, Class 1 Bluetooth, 40 Hours of Listening Time, Built-in Microphone - Black (Latest Model) ",
+  "c_id": "1",
+  "brand_name": "Beats",
+  "image": "https://m.media-amazon.com/images/I/51QxA-98Q+L._AC_SL1000_.jpg",
+  "price": "195.99",
+  "discounted_price": "$137.99"
+},{
+  "_id": {
+    "$oid": "60fdaf9b834f3736ee77339a"
+  },
+  "name": "Skullcandy Sesh Evo True Wireless In-Ear Earbud - True Black",
+  "c_id": "1",
+  "brand_name": "Skullcandy",
+  "image": "https://m.media-amazon.com/images/I/51TkidOb44S._AC_SL1280_.jpg",
+  "price": "$48.70 ",
+  "discounted_price": "$0.00"
+},{
+  "_id": {
+    "$oid": "60fdaf9b834f3736ee773398"
+  },
+  "name": "Sony ZX Series Wired On-Ear Headphones, Black MDR-ZX110 ",
+  "c_id": "1",
+  "brand_name": "Sony",
+  "image": "https://m.media-amazon.com/images/I/51eJUpMRnzL._AC_SL1000_.jpg",
+  "price": "$49.99",
+  "discounted_price": "$0.00"
+},{
+  "_id": {
+    "$oid": "60fdaf9b834f3736ee773397"
+  },
+  "name": "Apple AirPods with Charging Case (Wired)",
+  "c_id": "1",
+  "brand_name": "Apple",
+  "image": "https://m.media-amazon.com/images/I/71djnhmfy-L._AC_SL1500_.jpg",
+  "price": "$249.00",
+  "discounted_price": "$149.99"
+},{
+  "_id": {
+    "$oid": "60fdaf9b834f3736ee773399"
+  },
+  "name": "TOZO T10 Bluetooth 5.0 Wireless Earbuds with Wireless Charging Case IPX8 Waterproof Stereo Headphones in Ear Built in Mic Headset Premium Sound with Deep Bass for Sport Black",
+  "c_id": "1",
+  "brand_name": "TOZO",
+  "image": "https://m.media-amazon.com/images/I/71-S-dtu42L._AC_SL1500_.jpg",
+  "price": "$35.99",
+  "discounted_price": "$0.00"
+},{
+  "_id": {
+    "$oid": "610009d2bf7fbf33ae9f795f"
+  }
+}]
