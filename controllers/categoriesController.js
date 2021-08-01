@@ -1,12 +1,23 @@
-
+const Categories= require('../models/CategoriesModel');
 /*@desc Get all Categories
 *@route GET /api/v1/categories
 */
-exports.getCategories= (request,response, next)=>{
-    response.status(200).json({
-        success:true,
-        message: 'Get Categories'
-    });
+//console.log(Categories);
+exports.getCategories=async (request,response, next)=>{
+
+    try {
+        const categoriesList= await Categories.find();
+        console.log('log: '+response.body);
+        response.status(200).json({
+            success: true,
+            data: categoriesList
+        });
+    }
+    catch (err){
+        response.status(400).json({
+            success: false
+        });
+    }
 }
 
 
@@ -24,11 +35,20 @@ exports.getCategoryProduct= (request,response, next)=>{
 /*@desc Post product in Category
 *@route POST /api/v1/categories
 */
-exports.postCategoriesProduct= (request,response, next)=>{
-    response.status(200).json({
-        success:true,
-        message: 'Post product in Category'
-    });
+exports.postCategoriesProduct= async (request,response, next)=>{
+    const categoriesData= await Categories.create(request.body);
+    try {
+        response.status(200).json({
+            success: true,
+            data: categoriesData
+        });
+    }
+    catch (e) {
+        response.status(400).json({
+            success:false,
+            data: 'No datar'
+        })
+    }
 }
 
 

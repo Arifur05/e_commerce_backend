@@ -4,20 +4,24 @@ const morgan = require('morgan');
 const colors = require('colors');
 const connectDB = require('./config/db');
 
-//routers
-const categories = require('./routes/categories');
-const products = require('./routes/products');
+//environment variables
+dotenv.config({path: './config/config.env'});
 
 //connect to Database
 connectDB();
 
-//environment variables
-dotenv.config({path: './config/config.env'});
+
+//routers
+const categories = require('./routes/categories');
+const products = require('./routes/products');
+
 
 const app = express();
+//body parser
+app.use(express.json());
 
 //Dev logging middleware
-if (process.env.NODE_ENV === 'development'){
+if (process.env.NODE_ENV === 'development') {
     app.use(morgan('dev'));
 }
 
