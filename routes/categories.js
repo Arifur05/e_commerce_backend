@@ -3,13 +3,14 @@ const dotenv = require('dotenv');
 const {
     getCategories,
     getCategoryProduct,
-    updateProductCategories,
+    updateCategoriesData,
     postCategoriesProduct,
-    deleteProductCategories
+    deleteProductCategories,
 } = require('../controllers/categoriesController');
 const router = express.Router();
 
-router.route('/').get(getCategories).get(getCategoryProduct).put(updateProductCategories).post(postCategoriesProduct).delete(deleteProductCategories);
+router.route('/').get(getCategories).post(postCategoriesProduct);
+router.route('/:id').get(getCategoryProduct).put(updateCategoriesData).delete(deleteProductCategories);
 
 
 module.exports = router;
