@@ -46,7 +46,7 @@ exports.postCategoriesProduct= async (request,response, next)=>{
     catch (e) {
         response.status(400).json({
             success:false,
-            data: 'No datar'
+            data: 'Data couldnt updated'
         })
     }
 }
@@ -55,10 +55,21 @@ exports.postCategoriesProduct= async (request,response, next)=>{
 /*@desc UPDATE Categories
 *@route PUT /api/v1/categories/id
 */
-exports.updateProductCategories= (request,response, next)=>{
+exports.updateProductCategories=async (request,response, next)=>{
+    const categories= await Categories.findByIdAndUpdate(
+        request.params.id, request.body,{
+            new: true,
+            runValidators:true
+        });
+    if (!categories){
+        return response.status(400).json({
+            success: 'false'
+        });
+    }
+
     response.status(200).json({
         success:true,
-        message: 'UPDATE Categories'
+        data: categories
     });
 }
 
