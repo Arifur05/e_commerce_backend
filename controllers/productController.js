@@ -1,4 +1,5 @@
 const Products= require('../models/ProductsModel');
+const Categories = require("../models/CategoriesModel");
 /*@desc Get all Categories
 *@route GET /api/v1/categories
 */
@@ -47,19 +48,53 @@ exports.postProducts= async (request,response, next)=>{
 /*@desc UPDATE Categories
 *@route PUT /api/v1/categories/id
 */
-exports.updateProducts= (request,response, next)=>{
-    response.status(200).json({
-        success:true,
-        message: 'UPDATE Products'
-    });
+exports.updateProducts= async (request,response, next)=>{
+    try {
+        const productData= await Products.findByIdAndUpdate(
+            request.params.id, request.body,{
+                new: true,
+                runValidators:true
+            });
+        console.log(request.body);
+
+        if (!productData){
+            return response.status(400).json({
+                success: 'false'
+            },console.log(`Product not found with id of ${request.params.id}`, 404));
+        }
+
+        response.status(200).json({
+            success:true,
+            data: productData
+        });
+    }
+    catch (e) {
+        response.status(400).json({
+            success: 'false'});
+    }
 }
 
 /*@desc DELETE Categories
 *@route DELETE /api/v1/categories/id
 */
-exports.deleteProducts= (request,response, next)=>{
-    response.status(200).json({
-        success:true,
-        message: ' DELETE Products'
-    });
+exports.deleteProducts= async (request,response, next)=>{
+    try {
+        const products= await Products.findByIdAndUpdate(request.params.id);
+        console.log(request.body);
+
+        if (!products){
+            return response.status(400).json({
+                success: 'false'
+            },console.log(`Product not found with id of ${request.params.id}`, 404));
+        }
+
+        response.status(200).json({
+            success:true,
+            message: 'Product deleted successfully!'
+        });
+    }
+    catch (e) {
+        response.status(400).json({
+            success: 'false'});
+    }
 }

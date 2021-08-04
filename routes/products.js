@@ -12,6 +12,12 @@ router.route('/').get(getProducts)
     .put(updateProducts)
     .post(postProducts)
     .delete(deleteProducts);
+router.route('/:id').get(getProducts)
+    .put(updateProducts)
+    .post(postProducts)
+    .delete(deleteProducts);
+
+
 
 
 
